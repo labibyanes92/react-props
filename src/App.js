@@ -5,8 +5,8 @@ import Picture from './profile/luca-modric.jpg';
 
 function App() {
   
-  const Profile = props=>{
- function handleName (a) {
+  
+ function handleName = a => {
      a.preventDefault();
     alert("Luca Modric");
 
