@@ -1,12 +1,7 @@
 import React from 'react'; 
 import PropTypes from "prop-types";
 
-const Profile = props=>{
- function handleName (a) {
-     a.preventDefault();
-    alert("Luca Modric");
 
- }
 
 
     return (
