@@ -14,7 +14,7 @@ function App() {
   
   return (
     <div className="App">
-      <Profile  fullname = "Luca Modric" bio = "né le 9 septembre 1985 à Zadar en Yougoslavie (aujourd'hui en Croatie), est un footballeur international croate. Il évolue au poste de milieu de terrain au Real Madrid CF. Il est, avec Davor Šuker et Bernard Vukas, considéré comme l'un des plus grands joueurs croates de l'histoire Il est aussi le seul joueur croate à avoir gagné le ballon d'or" profession="Joueur du football " >
+      <Profile  fullname = {handleName} bio = "né le 9 septembre 1985 à Zadar en Yougoslavie (aujourd'hui en Croatie), est un footballeur international croate. Il évolue au poste de milieu de terrain au Real Madrid CF. Il est, avec Davor Šuker et Bernard Vukas, considéré comme l'un des plus grands joueurs croates de l'histoire Il est aussi le seul joueur croate à avoir gagné le ballon d'or" profession="Joueur du football " >
         <img
         className="imgPro"
         src={Picture}
